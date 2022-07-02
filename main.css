@@ -159,12 +159,19 @@ a:active {
     text-align: left;
 }
 .pic-hobby{
-    background-image: url("image/hobby.jpg");
+    background-image: url("image/hobby2.jpg");
     background-size: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 66%;
 }
 
-.skill{
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0%;
+    margin-top: 10%;
+}
+.skill-1{
     text-align: center;
     display: grid;
     flex-wrap: wrap;
@@ -183,11 +190,25 @@ a:active {
     justify-content: center;
 }
 #skill-info img{
-    width: 100px;
-    margin: 30px;
+    width: 50px;
+    margin: 15px;
 }
+.skill-2{
+    text-align: center;
+    display: grid;
+    flex-wrap: wrap;
+    padding: 5% ;
+    border-radius: 20px;
+    margin: 10%;
+    width: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#soft-skill-info{
+    text-align: left;
+}
+
 .css{
-    height: 100px;
+    height: 50px;
 }
 hr{
     width: 40%;
