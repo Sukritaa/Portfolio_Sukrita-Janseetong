@@ -313,17 +313,6 @@ video{
     #skill-info img{
         width: 100px;
     }
-    #inter-info > div{
-        background-color: #ADD8FF;
-        border-radius: 20px;
-        width: 150px;
-        margin: 20px;
-        padding: 4% 0%;
-    }
-    .con-topic{
-        text-align: left;
-        font-size: 10px;
-    }
     .Project{
         grid-template-columns: 100%;
         text-align: center;
@@ -380,29 +369,6 @@ video{
     }
     #profile-name p{
         font-size: 20px;     
-    }
-    #ass-info div{
-        width: 300px;
-        margin: 40px;
-    }
-    #ass-1 {
-        background-size: 400px;
-    }
-    #ass-2 {
-        background-size: 400px;
-    }
-    #ass-3 {
-        background-size: 400px;
-    }
-    #ass-4 {
-        background-size: 400px;
-    }
-    #ass-5 {
-        background-size: 400px;
-    }
-    .con-topic{
-        text-align: left;
-        font-size: 10px;
     }
     .Project{
         grid-template-columns: 100%;
