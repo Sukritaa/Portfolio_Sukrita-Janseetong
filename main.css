@@ -161,7 +161,7 @@ a:active {
 .pic-hobby{
     background-image: url("image/hobby.jpg");
     background-size: 100%;
-    padding-bottom: 65%;
+    padding-bottom: 100%;
 }
 
 .skill{
